@@ -23,18 +23,89 @@ html{
 .goodAt, .badAt {
 	list-style: none;
 	text-align:center;
-	margin-top:160px;
+	margin: 120px 0px 120px 0px ;
 }
 .goodAt li, .badAt li {
 	list-style: none;
 	text-align:center;
-	margin:20px;
+	margin:20px 20px 20px 20px;
 	font-size: 18px; 
 	color: #A8A7A7 ;
 }
 
 .block {
 	background-color: #FF7C96;
-	height: 150px;
+	height: 40px;
+	margin:20px 0px 20px 0px;
 	opacity: .5;
+}
+.block:hover {
+	opacity: 1;
+}
+.text-right {
+	padding-left: 3em;
+	float:right;
+}
+.jobCard li{
+	list-style: none;
+	margin-top: 20px;
+}
+.jobStart, .jobEnd{
+	vertical-align: text-bottom;
+	background-color: #A8A7A7 ;
+	text-align: center;
+	list-style: none;
+	color:white;
+	height:50px;
+
+}
+.jobEnd{
+	border-top: 2px solid black;
+	position: top;
+  bottom: 0;
+  left: 0;
+}
+.jobStart{
+	border-bottom: 2px solid black;
+	margin-top: 300px;
+}
+
+hr {
+	color: #FF7C96;
+	border-top: 3px solid #FF7C96;
+	opacity: .5;
+	margin-bottom: 50px;
+
+}
+.jobCard {
+	
+	margin-bottom: 30px;
+	position: relative;
+	height:auto;
+	font-family: 'Roboto Slab', serif;
+	text-overflow: hidden;
+	margin-bottom: 200px;
+}
+
+.eduCard{
+	height:250px;
+
+	margin-bottom: 100px;
+	opacity: .5;
+	text-align: center;
+}
+.eduCard:hover{
+	opacity: 1;
+}
+.eduCard p{
+	color:  #A8A7A7;
+	margin: 20px 15px 20px 15px;
+
+}
+.eduDate{
+	color: #A8A7A7 ;
+	border-top: 2px solid black;
+	width:100%;
+
+
 }
