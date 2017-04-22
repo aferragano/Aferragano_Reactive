@@ -23,7 +23,7 @@ Meteor.startup(() => {
 			<div>
 				<Navigation/>
 
-	      <Route path="/" component={About}/>
+	      <Route path="/about" component={About}/>
 	      <Route path="/blog" component={Blog}/>
 	      <Route path="/contact" component={Contact}/>
 	      <Route path="/portfolio" component={Portfolio}/>
