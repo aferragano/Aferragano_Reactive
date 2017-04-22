@@ -34,10 +34,9 @@ html{
 }
 
 .block {
-	background-color: #FF7C96;
+	background-color: #DCE4F7;
 	height: 40px;
 	margin:20px 0px 20px 0px;
-	opacity: .5;
 }
 .block:hover {
 	opacity: 1;
@@ -71,11 +70,9 @@ html{
 }
 
 hr {
-	color: #FF7C96;
-	border-top: 3px solid #FF7C96;
-	opacity: .5;
+	color: #DCE4F7;
+	border-top: 3px solid #DCE4F7;
 	margin-bottom: 50px;
-
 }
 .jobCard {
 	
@@ -84,28 +81,21 @@ hr {
 	height:auto;
 	font-family: 'Roboto Slab', serif;
 	text-overflow: hidden;
-	margin-bottom: 200px;
+	margin-bottom: 120px;
 }
 
 .eduCard{
 	height:250px;
-
 	margin-bottom: 100px;
-	opacity: .5;
 	text-align: center;
 }
-.eduCard:hover{
-	opacity: 1;
-}
+
 .eduCard p{
 	color:  #A8A7A7;
 	margin: 20px 15px 20px 15px;
-
 }
 .eduDate{
 	color: #A8A7A7 ;
 	border-top: 2px solid black;
 	width:100%;
-
-
 }

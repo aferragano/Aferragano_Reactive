@@ -61,7 +61,7 @@ export default class App extends Component {
         	</div>
 
         	<div className="aboutMe col-lg-12 col-md-12 " >
-	        	<h1>experience</h1>
+	        	<h1> work experience & education</h1>
 	        	<hr/>
 	        	
 	        	<div className="row leftExp col-lg-6 col-md-6 col-sm-12">
