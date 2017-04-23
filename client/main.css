@@ -1,5 +1,7 @@
 /* CSS declarations go here */
-html{
+html, div, p, li, {
+	margin:0;
+	padding:0;
 
 }
 /* Extra small devices (phones, less than 768px) */
@@ -36,7 +38,7 @@ html{
 .block {
 	background-color: #DCE4F7;
 	height: 40px;
-	margin:20px 0px 20px 0px;
+	margin:0px;
 }
 .block:hover {
 	opacity: 1;
@@ -51,7 +53,7 @@ html{
 }
 .jobStart, .jobEnd{
 	vertical-align: text-bottom;
-	background-color: #A8A7A7 ;
+	background-color: #84b295 ;
 	text-align: center;
 	list-style: none;
 	color:white;
@@ -71,7 +73,7 @@ html{
 
 hr {
 	color: #DCE4F7;
-	border-top: 3px solid #DCE4F7;
+	border-top: 3px solid #A8A7A7 ;
 	margin-bottom: 50px;
 }
 .jobCard {
@@ -88,6 +90,8 @@ hr {
 	height:250px;
 	margin-bottom: 100px;
 	text-align: center;
+	color:#142F30;
+	font-family: 'PT Mono', monospace;
 }
 
 .eduCard p{
@@ -96,7 +100,8 @@ hr {
 }
 .eduDate{
 	color: #A8A7A7 ;
-	border-top: 2px solid black;
+	border-top: 2px solid #142F30;
+	color:#142F30;
 	width:100%;
 }
 .projectCard {

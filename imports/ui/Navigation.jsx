@@ -6,7 +6,7 @@ export default class Navigation extends Component {
 
 	render() {
 		return(
-			<div> 
+			<div className="col-lg-12"> 
 			<header className="row">
           <div className="col-lg-12 col-md-12 text-center" ><h1>aferragano</h1></div>
           <hr/>
@@ -24,7 +24,7 @@ export default class Navigation extends Component {
           		<Link to="/contact">contact </Link> 
         		</div>
           </div>
-          <div className="col-md-12  block"></div>
+          <div className="col-md-12 col-lg-12  block"></div>
           
         </header>
 			</div>

@@ -7,7 +7,7 @@ export default class About extends Component {
 	render() {
 		return(
 			<div> 
-			<div className="aboutMe" >
+			<div className="aboutMe col-lg-10 col-md-10 col-md-offset-1" >
         	<h1>about me</h1>
         	<hr/>
         	<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14666193_10100832017237799_4022808138863214789_n.jpg?oh=6cb6c633e0fd6118f50daeae4c70005f&oe=597BC77E" 
