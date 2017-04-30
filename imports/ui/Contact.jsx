@@ -6,7 +6,9 @@ export default class Contact extends Component {
 
 	render() {
 		return(
-			<div> gypsy
+			<div className="portfolioContainer col-lg-10 col-md-10 col-md-offset-1">
+				<h1>contact</h1>
+				<hr/>
 			</div>
 		)
 	}
